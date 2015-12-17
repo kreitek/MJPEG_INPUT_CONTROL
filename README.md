@@ -2,6 +2,7 @@
 Plugin para el servidor de video streaming MJPEG Streamer. Cuya finalidad es lograr el control de un hardware conectado a un ordenador de placa reducida, como raspberry pi, a través de sus puertos GPIO. Con ello se consigue simplificar el desarrollo de una página web de control de dicho dispositivo de manera que se logra su control a partir de este servidor de video streaming.
 
 Modo de prueba:
+  
   $ make fix-dependency
   
   $ make
