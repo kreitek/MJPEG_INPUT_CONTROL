@@ -3,11 +3,11 @@ Plugin para el servidor de video streaming MJPEG Streamer. Cuya finalidad es log
 
 Modo de prueba:
   
-  $ make fix-dependency
+    $ make fix-dependency
   
-  $ make
+    $ make
   
-  $ ./test.sh
+    $ ./test.sh
 
   Abrir navegador en http://localhost:8080, observar en la web si al pulsar el botón la bombilla parpadea, lo que significa que a través de la red se envía un mensaje, repetitivo y AJAX, hacia el servidor “mjpeg-streamer” el plugin lo reconoce y responde una respuesta a la web. También es posible ver un mensaje de respuesta en la consola.
 
