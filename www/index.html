@@ -97,7 +97,7 @@
 		}
 
 		function sendComm(command) {
-			return AJAX_get('http://localhost:8080?action=command&dest=0&plugin=0&value=0&id=' + command);
+			return AJAX_get('http://'+window.location.hostname+':8080?action=command&dest=0&plugin=0&value=0&id=' + command);
 		}
 		function blinkOn() { onDown('0');return false; }
 		function blinkOff() { onRelease('9');return false; }
